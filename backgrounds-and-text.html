@@ -5,11 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backgrounds and Text</title>
+    <style>
+      nav a:hover,
+      nav a:focus {
+        background-color: #eeffee;
+        color: #003100;
+      }
+      nav a:visited {
+        color: #9938f2;
+      }
+      nav a li {
+        display: inline-block;
+        margin: 4px;
+        padding: 5px;
+        font-size: 20px;
+      }
+    </style>
   </head>
   <body font-size="20px" color="#291541" background-color="ghostwhite">
-    <nav></nav>
+    <nav>
+      <ul>
+        <a href="index.html" class="nav-link"><li>Inline CSS Page</li></a>
+        <a href="internal-css.html" class="nav-link"
+          ><li>Internal CSS Page</li></a
+        >
+        <a href="external-css.html" class="nav-link"
+          ><li>External CSS Page</li></a
+        >
+        <a href="testing-cascading.html" class="nav-link"
+          ><li>Testing and Cascading Page</li></a
+        >
+        <a href="classes-and-ids.html" class="nav-link"
+          ><li>Classes and IDs</li></a
+        >
+        <a href="typography.html" class="nav-link"><li>Typography</li></a>
+        <a href="backgrounds-and-text.html" class="nav-link"
+          ><li>Backgrounds and Text</li></a
+        >
+      </ul>
+    </nav>
     <main>
-      <h1 font-size="48px">Backgrounds and Text</h1>
+      <h1 font-size="48px" class="center">Backgrounds and Text</h1>
       <section>
         <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
         <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
