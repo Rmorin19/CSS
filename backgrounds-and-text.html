@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Backgrounds and Text</title>
     <style>
+      * {
+        font-size: 20px;
+      }
+
+      body {
+        color: #291541;
+        background-color: ghostwhite;
+        margin: 5% 10% 10% 5%;
+      }
+      ul {
+        list-style: none;
+      }
+      nav a {
+        margin: 1px;
+        border: 1px solid black;
+        padding: 1px;
+        background-color: #003100;
+        color: #eeffee;
+        font-weight: bolder;
+      }
       nav a:hover,
       nav a:focus {
         background-color: #eeffee;
@@ -20,60 +40,72 @@
         padding: 5px;
         font-size: 20px;
       }
+      h1 {
+        font-size: 48px;
+      }
+      section {
+        background-color: #5ac88b;
+      }
+      section p {
+        font-weight: bold;
+      }
     </style>
   </head>
-  <body font-size="20px" color="#291541" background-color="ghostwhite">
+  <body>
     <nav>
       <ul>
-        <a href="index.html" class="nav-link"><li>Inline CSS Page</li></a>
-        <a href="internal-css.html" class="nav-link"
-          ><li>Internal CSS Page</li></a
-        >
-        <a href="external-css.html" class="nav-link"
-          ><li>External CSS Page</li></a
-        >
+        <a href="index.html" class="nav-link"><li>Inline CSS</li></a>
+        <a href="internal-css.html" class="nav-link"><li>Internal CSS</li></a>
+        <a href="external-css.html" class="nav-link"><li>External CSS</li></a>
         <a href="testing-cascading.html" class="nav-link"
-          ><li>Testing and Cascading Page</li></a
+          ><li>Testing Cascading CSS</li></a
         >
         <a href="classes-and-ids.html" class="nav-link"
           ><li>Classes and IDs</li></a
         >
+        <a href="div-and-span.html" class="nav-link"><li>Divs and Spans</li></a>
         <a href="typography.html" class="nav-link"><li>Typography</li></a>
-        <a href="backgrounds-and-text.html" class="nav-link"
-          ><li>Backgrounds and Text</li></a
+        <a href="background-and-text.html" class="nav-link"
+          ><li>Background and Text</li></a
         >
       </ul>
     </nav>
     <main>
-      <h1 font-size="48px" class="center">Backgrounds and Text</h1>
-      <section>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-        <p>ahhhhhhhhhhhhhhhhhhhhhhhhhhh</p>
-      </section>
+      <h2 style="text-align: center">Backgrounds and Text</h2>
+      <div
+        style="
+          background-color: #5ac88b;
+          margin-left: 400px;
+          margin-right: 400px;
+        "
+      >
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+        <p>School-appropiate-filler-text</p>
+      </div>
+      <img
+        src="https://preview.redd.it/bptzx7ur4uj11.jpg?auto=webp&s=e6660e4545b2463db71c4acb481624730914f8e1"
+        style="
+          margin-left: 400px;
+          margin-right: auto;
+          padding: 100px 200px 200px 0;
+        "
+        width="40%"
+        height="20%"
+      />
     </main>
   </body>
 </html>
