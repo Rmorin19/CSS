@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gradients</title>
+    <title>TTA</title>
     <style>
       * {
         font-size: 20px;
@@ -12,6 +12,16 @@
       h1 {
         font-size: 48px;
         background-image: radial-gradient(#f0c27b, #4b1248, #ff6b6b, #556270);
+
+        position: relative;
+        left: 50%;
+        -o-transform: translateX(-50%) rotateY(90deg) rotateX(180deg);
+        -moz-transform: translateX(-50%) rotateY(90deg) rotateX(180deg);
+        -webkit-transform: translateX(-50%) rotateY(90deg) rotateX(180deg);
+        -ms-transform: translateX(-50%) rotateY(90deg) rotateX(180deg);
+        transform: translateX(-50%) rotateY(89deg) rotateX(180deg);
+
+        display: inline-block;
       }
       body {
         background-color: ghostwhite;
@@ -29,11 +39,26 @@
         color: #eeffee;
         font-weight: bolder;
         text-shadow: 1px 0px 0px black;
+
+        transition: transform 0.5s ease-in-out;
+      }
+      .nav-link {
+        transition: transform 0.5s ease-in-out;
       }
       nav a:hover,
       nav a:focus {
         background-color: #eeffee;
         color: #121212;
+
+        -o-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+      }
+      .nav-link:hover,
+      .nav-link:focus {
+        transition: transform 0.5s ease-in-out;
       }
       nav a:visited {
         color: #eeffee;
@@ -45,9 +70,20 @@
         font-size: 20px;
       }
       section {
-        background-color: #995f7c;
+        background-color: #928089;
 
         padding: 10px 35px;
+        height: 1500px;
+      }
+      section div {
+        position: relative;
+        top: 50%;
+
+        -o-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
       }
       section p {
         font-weight: bold;
@@ -82,25 +118,27 @@
       </nav>
     </header>
     <main>
-      <h1 style="text-align: center">Gradients</h1>
+      <h1 style="text-align: center">TTA</h1>
 
       <section style="margin-left: 400px; margin-right: 400px">
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
-        <p>School-appropiate-filler-text</p>
+        <div>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+          <p>School-appropiate-filler-text</p>
+        </div>
       </section>
       <img
         src="https://preview.redd.it/bptzx7ur4uj11.jpg?auto=webp&s=e6660e4545b2463db71c4acb481624730914f8e1"
