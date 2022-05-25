@@ -27,7 +27,38 @@
         background-color: ghostwhite;
         background: linear-gradient(to bottom, #ff6b6b, #556270);
         margin: 5% 10%;
+
+        -moz-animation: fade-in 1s linear 0.5s forwards;
+        -o-animation: fade-in 1s linear 0.5s forwards;
+        -webkit-animation: fade-in 1s linear 0.5s forwards;
+        animation: fade-in 1s linear 0.5s forwards;
+
+        /* animation-name: fade-in;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+        animation-delay: 0.5s;
+
+        animation-iteration-count: 2;
+
+        animation-direction: normal;
+        
+        animation-fill-mode: forwards;*/
       }
+
+      @keyframes fade-in {
+        from {
+          position: relative;
+        top: 200px;
+
+        opacity: 0;
+        }
+        to {
+          top: 0;
+          opacity: 1;
+        }
+      }
+      
+
       ul {
         list-style: none;
       }
